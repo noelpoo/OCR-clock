@@ -283,7 +283,6 @@ def getContoursImg(oriImage,processedImage):
         return retImageA, retImageB
     else:
         return retImageB, retImageA
- """
 
 def getDelayTime(image, count, sucDir, failDir, algorithm):
     maskedImage = getPercentileBlack(image,algorithm)
@@ -417,4 +416,3 @@ def main():
 if __name__ == '__main__':
     main()
     
-"""
